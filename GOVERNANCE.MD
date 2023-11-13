@@ -37,7 +37,7 @@ The board entrusts technical oversight of the project to the Technical Steering 
 
 ### Special Interest Groups and Technical Working Groups
 
-It is the responsibility of the TSC to organize SIGs and temporary working groups to address technical issues based on the needs of the community.  Any project participant may suggest a SIG for long term focus or a working group for a short term project through a pull request to this repository that creates a directory for the SIG and a readme based on the [prototype](/prototypes/sig-README-template.md).
+It is the responsibility of the TSC to organize SIGs and temporary working groups to address technical issues based on the needs of the community.  Any project participant may suggest a SIG for long term focus or a working group for a short term project through a pull request to the community repository that creates a directory for the SIG and a readme based on the [prototype](https://github.com/OpenCHAMI/community/blob/main/prototypes/sig-README-template.md).
 
 ### Technical Standards
 
