@@ -8,9 +8,8 @@ _As contributors and maintainers of this project, and in the interest of fosteri
 
 We have full documentation on how to get started contributing here:
 
-
-- [Our Values](https://github.com/openchami/community/blob/main/values.md) We do our best to live our values in all contributions
-- [Architectural Principles](https://github.com/openchami/community/blob/main/tsc-docs/Principles.md) We seek to uphold our principles with each change to any OpenCHAMI code
+- [Our Values](https://github.com/openCHAMI/.github/blob/main/VALUES.md) We do our best to live our values in all contributions
+- [Architectural Principles](https://github.com/OpenCHAMI/community/blob/main/TSC/Principles.md) We seek to uphold our principles with each change to any OpenCHAMI code
 
 ## Quality Standards in Code Reviews
 
