@@ -35,7 +35,14 @@ OpenCHAMI stresses composability.  Each piece of software should be independentl
 * **[Boot Script Service (BSS)](https://github.com/openchami/bss)** - Automatic boot script generation for diskless/diskful HPC Compute Nodes
 * **[Image Builder](https://github.com/openchami/image-builder)** - Tooling for creating squashfs filesystems for remote booting HPC Nodes
 * **[Cloud-Init Server](https://github.com/openchami/cloud-init)** - Automatic generation of cloud-init payloads with optional machine identity and optional transport layer security through Wireguard
-* **[coresmd](https://github.com/openchami/coresmd)** - CoreDHCP plugin for autmatically updating the DHCP configuration based on information in the rest of OpenCHAMI
+* **[coresmd](https://github.com/openchami/coresmd)** - CoreDHCP plugin for autmatically updating the DHCP configuration based on information from the rest of OpenCHAMI
+
+### Third Party Open Source
+
+* **[Step-CA](https://smallstep.com/certificates/)** - ACME certificate authority designed to be run as a microservice
+* **[Haproxy](https://www.haproxy.org/)** - Reverse proxy for allowing all microservices to be accessible through a single http(s) host
+* **[Ory Hydra](https://github.com/ory/hydra)** - OIDC provider to use site identity for authorization within OpenCHAMI
+* **[Postgresql](https://www.postgresql.org/)** - Database persistence for services that need it
 
 
 ## Getting Started
