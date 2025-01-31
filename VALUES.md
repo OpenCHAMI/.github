@@ -1,7 +1,8 @@
 # Values
 
 The board and TSC share a set of common values that guide interaction between member organizations, interpersonal relationships, and inform decision making.
-We work in the open
+
+## We work in the open
 Public decisions allow members and non-members alike to cooperate in accordance with these values.  Public decision-making allows the community to understand the tradeoffs inherent in any tough decision.  It builds trust and encourages participation.  By default, all documents should be public and all software should be open.
 
 ## Distribution is better than centralization

@@ -1,12 +1,22 @@
-# Governance Structure
-The project is governed by a board of directors (the board) which delegates oversight of technical issues to a technical steering committee (the TSC).  The board has discretion to form additional committees to more effectively manage the project.  The TSC is responsible for organizing special interest groups (SIGs) as needed to address narrow issues of technical focus.
+# Governance of the OpenCHAMI Project
+
+This file describes the current governance of the OpenCHAMI Poject. It was last updated in January 2025.
+
+In accordance with the [charter](CHARTER.MD), the Technical Steering Committee (TSC) is responsible for technical guidance of the project.
+
+## Technical Leadership
+
+** Technical Steering Committee Lead: **  [Alex Lovell-Troy](https://github.com/alexlovelltroy)
+
+Role: As stated in the [Contribution Guide](CONTRIBUTING.md), the TSC lead is responsible for acting as a bridge between the TSC and the Board.  In order to effectively guide the project, the lead must be aware of the major issues and roadmap of the project and priorities of the consortium partners.  He or She is expected to help guide decisions in ways that are technically sound and responsive to the needs of the community.
 
 ## Board Of Directors
-This charter is enacted by the founding members of the project through the creation of a Board of Directors (the board) that is responsible for leadership and management.  Membership on the board is granted permanently to the founding institutions and one representative from the Technical Steering Committee (the TSC). A founding institution is required to submit in writing to the board its intention to leave the project or the board. Each founding institution and the TSC is granted one vote on the board. Each founding institution appoints a representative and one alternate member. The TC will be required to send one member to attend all board activities. The board shall define in these rules the mechanism by which members of the board will be accepted and removed.  Unless otherwise stipulated, votes are carried by a simple majority of voting members.
+
+Membership on the board is granted permanently to the founding institutions and one representative from the Technical Steering Committee (the TSC). A founding institution is required to submit in writing to the board its intention to leave the project or the board. Each founding institution and the TSC is granted one vote on the board. Each founding institution appoints a representative and one alternate member. The TSC will be required to send one member to attend all board activities. The board shall define in these rules the mechanism by which members of the board will be accepted and removed. Unless otherwise stipulated, votes are carried by a simple majority of voting members.
 
 ### Board Membership
 
-The Board is the ultimate decision-making body of the Project and comprises members nominated by the founding partners and non-founding partners that fulfill the membership criteria.
+The Board comprises members nominated by the founding partners and non-founding partners that fulfill the membership criteria.
 
 Each founding partner must nominate one primary and one alternate Board member. Both individuals have the right to attend board meetings, but only the primary Board member has voting rights, unless the primary member is unavailable.
 
@@ -21,9 +31,9 @@ There can be no non-voting members of the Board. All Board members have an equal
   - Mark Klein (Alternate)
 * HPE
   - Larry Kaplan
-  - Ted Wood (Alternate)
+  - Andy Garside (Alternate)
 * LANL
-  - Tim Randles
+  - Travis Cotton
   - Gary Grider (Alternate)
 * NERSC
   - Eric Roman
@@ -32,14 +42,11 @@ There can be no non-voting members of the Board. All Board members have an equal
   - Sadaf Alam
   - Christopher Woods (Alternate)
 
-## Technical Steering Committee
-The board entrusts technical oversight of the project to the Technical Steering Committee (the TSC).  Membership in the TSC is granted permanently to the founding institutions named below. A founding institution is required to submit in writing to the board and the TC its intention to leave the TC. Each founding institution shall appoint one member and one alternate member to the TC. Both individuals have the right to participate in TSC meetings, but only the primary TSC member has voting rights, unless the primary member is unavailable. A membership vote for the TSC shall happen on a yearly basis beginning one year after the adoption of these rules.
-
-### Special Interest Groups and Technical Working Groups
+## Special Interest Groups and Technical Working Groups
 
 It is the responsibility of the TSC to organize SIGs and temporary working groups to address technical issues based on the needs of the community.  Any project participant may suggest a SIG for long term focus or a working group for a short term project through a pull request to the community repository that creates a directory for the SIG and a readme based on the [prototype](https://github.com/OpenCHAMI/community/blob/main/prototypes/sig-README-template.md).
 
-### Technical Standards
+## Technical Standards
 
 The TSC is responsible for the quality of technical changes to the project.  In order to facilitate robust and transparent discussion surrounding the standards, the TSC has created a structured area for discussion in this repository under [rfds](/rfds/) that is loosely based on earlier work from the [IETF](https://datatracker.ietf.org/doc/html/rfc3) and the team at [Oxide.Computer](https://oxide.computer/blog/rfd-1-requests-for-discussion)
 
