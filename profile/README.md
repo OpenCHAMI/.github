@@ -26,6 +26,17 @@ The five founding members have each contributed time, resources, and software to
 
 If your site is interested in joining the consortium, contact us at [admin@openchami.org](admin@openchami.org)
 
+## Software
+
+OpenCHAMI stresses composability.  Each piece of software should be independently useful with clear boundaries.  Where a third-party open source project can be leveraged, we prefer it.
+
+* **[Magellan](https://github.com/openchami/magellan)** - Redfish-based tool for automatic node discovery and firmware management
+* **[State Management Database (SMD)](https://github.com/openchami/smd)** - Compute Node Inventory Daemon with support for ad-hoc group
+* **[Boot Script Service (BSS)](https://github.com/openchami/bss)** - Automatic boot script generation for diskless/diskful HPC Compute Nodes
+* **[Image Builder](https://github.com/openchami/image-builder)** - Tooling for creating squashfs filesystems for remote booting HPC Nodes
+* **[Cloud-Init Server](https://github.com/openchami/cloud-init)** - Automatic generation of cloud-init payloads with optional machine identity and optional transport layer security through Wireguard
+* **[coresmd](https://github.com/openchami/coresmd)** - CoreDHCP plugin for autmatically updating the DHCP configuration based on information in the rest of OpenCHAMI
+
 
 ## Getting Started
 
