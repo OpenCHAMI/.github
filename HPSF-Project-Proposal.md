@@ -115,14 +115,31 @@ The TSC above has access to commit directly to all project repositories.  Indivi
 
 ### 16. Please describe the project's decision-making process
 
-
+We operate on consensus with regular meetings (video). Significant changes often start with a Request For Discussion (RFD) containing context and alternatives.  Where needed, the TSC will vote according to the charter.
 
 ### 17. What is the maturity level of your project?
 
+[Sandbox](https://github.com/hpsfoundation/tac?tab=readme-ov-file#sandbox)
+
 ### 18. Please list the project's official communication channels
+
+* **Website:** [OpenCHAMI.org](https://openchami.org)
+* **Mailing List:** [MailerLite](https://mailerlite.com)
+* **Slack Instance:** [OpenCHAMI Slack](https://openchami.slack.com)
 
 ### 19. Please list the project's social media accounts
 
+* None
+
 ### 20. Please describe any existing financial sponsorships
 
+* Nearly all contributions are made by employees of the partners on company time.
+* CSCS maintains a GitHub account for maintenance of the GitHub Organization
+
 ### 21. Please describe the project's infrastructure needs or requests
+
+**Needs:**
+ - None
+
+**Requests:**
+ - Test Clusters for automated integration testing
