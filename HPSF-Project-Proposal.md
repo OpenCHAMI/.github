@@ -100,7 +100,7 @@ All source is maintained in Github repositories within the [OpenCHAMI Organizati
 All issues are tracked in the github repositories representing the different components of OpenCHAMI.  The project leadership also maintains[roadmap](https://github.com/openchami/roadmap) and [release](https://github.com/openchami/release) repositories with their own issue reporting that isn't tied to a specific component or to propose new functionality.  We report to the board through a [public github project](https://github.com/orgs/OpenCHAMI/projects/1) for larger initiatives.
 
 ### 11. Please list all external dependencies and their license
-* Refer to [External Dependencies document](https://github.com/OpenCHAMI/.github/linux_foundation/OpenChami-dependencies.md)
+* Refer to [External Dependencies document](https://github.com/OpenCHAMI/.github/linux_foundation/external-dependencies.md)
   
 ### 12. Please describe your release methodology and mechanics
 * Please refer to [OpenChami Release](https://github.com/openchami/release)
