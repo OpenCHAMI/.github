@@ -4,6 +4,8 @@
 
 ### 2. Project Description
 
+Provisioning and managing HPC systems involve detecting and cataloging hardware, configuring network and storage, and deploying operating systems and software environments. These processes typically rely on automated tools to ensure consistency, scalability, and efficiency. Traditional HPC management approaches often use tightly integrated frameworks, while newer methods leverage modular and API-driven architectures to provide greater flexibility and automation.
+
 OpenCHAMI is a consortium-driven set of composable software to enable sysadmins to securely and quickly provision and manage HPC/AI systems at any scale.  It's main features are: 
 * Redfish-based Hardware Discovery
 * Flexible API-based inventory management with customizable grouping and tenancy delegation
@@ -130,7 +132,13 @@ We rely on github Vulnerability Code Scanning, CodeQL and Security advisories. W
 
 ### 15. Please list the project members with access to commit to the mainline of the project
 
-The TSC above has access to commit directly to all project repositories.  Individual developers from various member sites have permission to commit to independent components in their capacity as maintainers of those components.
+The TSC above has access to commit directly to all project repositories.  Individual developers from various member sites have permission to commit to independent components in their capacity as maintainers of those components.  The TSC grants commit access to developers who meet several criteria and record their access in the CODEOWNERS file of each repository.
+
+**Commiter Criteria:**
+
+ 1. Valid and verifiable signing key for all commits
+ 1. Confirmed by a TSC member as connected with a partner **-or-** confirmed by a TSC member to be deploying OpenCHAMI for providing HPC Services to users
+ 1. A commitment from the user to engage in regular code reviews for the repository
 
 ### 16. Please describe the project's decision-making process
 
