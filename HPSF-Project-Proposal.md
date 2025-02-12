@@ -34,7 +34,7 @@ Together, the members chose a few of the existing microservices from the open so
  
  The rest of the software surrounding these microservices has been developed within OpenCHAMI to address specific gaps:
 
- 1. [Cloud-Init](https://github.com/openchami/cloud-init) A cloud-init provider that implements the endpoints for the `nocloud` cloud-init datasource and integrates with the reset of OpenCHAMI to enable secure, targeted, dynamic post-boot configuration
+ 1. [Cloud-Init](https://github.com/openchami/cloud-init) A cloud-init provider that implements the endpoints for the `nocloud` cloud-init datasource and integrates with the rest of OpenCHAMI to enable secure, targeted, dynamic post-boot configuration
  1. [Magellan](https://github.com/openchami/magellan) A standalone redfish-based discovery tool that can scan ip ranges and populate SMD with detailed information about nodes and other devices.  It provides tooling to update BMC firmware and BIOS settings across a fleet of  Nodes.  It also includes a standalone mode that writes structured json files for big data analysis.
  1. [Configurator](https://github.com/openchami/configurator) A templating service that can read SMD and generate different kinds of files for use with clusters.  New templates can be added with plugins.  Examples of files include:
     - Warewulf nodes.conf
@@ -53,8 +53,23 @@ With so much opportunity for customization, the OpenCHAMI project doesn't have a
 **Note** CSM was developed at Cray as part of the effort to deploy exascale HPC.  It is in operation today at the partner sites and remains one of the two supported options for managing CrayEX supercomptuers from HPE. [Cray-HPE CSM Documentation](https://cray-hpe.github.io/docs-csm/en-10/)
 
 
-
 ### 3. Statement on Alignment with High Performance Software Foundation's Mission
+OpenCHAMI is an open-source consortium project dedicated to simplifying and streamlining the provisioning and management of high-performance computing (HPC) and AI systems. Our goals closely mirror the High Performance Software Foundation’s mission to “foster collaboration and stewardship of open source software projects that fuel innovation in high performance computing.” We see ourselves as complementary to the broader HPC software ecosystem and closely aligned with HPSF in the following ways:
+#### 3.1 Open, Collaborative Development
+* OpenCHAMI’s development philosophy is built around open standards, transparent processes, and a community-driven approach. We collaborate across a consortium of HPC sites and practitioners who share code, experience, and lessons learned, echoing HPSF’s emphasis on openness and community empowerment.OpenCHAMI fosters an environment where best practices and innovations are shared across institutions. This collaborative approach mirrors HPSF’s commitment to reducing duplication of effort and encouraging a community-led ecosystem.
+#### 3.2 Modular, Composable Software Architecture
+* Inspired by modern DevOps and cloud-native principles, OpenCHAMI’s composable microservices approach empowers sites to customize their HPC/AI infrastructures with minimal overhead or vendor lock-in. This modularity and flexibility align with HPSF’s commitment to promoting innovation and adaptability in high performance computing environments.
+#### 3.3 Enhancing HPC Productivity
+* By providing secure, robust, and automated tools for system administrators and researchers—from hardware discovery and firmware management to advanced provisioning—OpenCHAMI lowers barriers to entry. These enhancements help HPC practitioners focus on research and innovation rather than complex, manual cluster management. This goal supports HPSF’s mission to make HPC software more accessible and efficient.
+#### 3.4 Community Knowledge-Sharing and Best Practices
+* OpenCHAMI’s consortium model encourages the exchange of best practices among HPC sites, enabling collective problem-solving and accelerating improvements. This spirit of open collaboration resonates with HPSF’s dedication to creating a thriving ecosystem where successes and methodologies are shared to benefit all participants.
+#### 3.5 Inclusive and Vendor-Neutral
+* OpenCHAMI’s emphasis on customizable deployment (via Kubernetes, Docker Compose, Podman, SystemD, and beyond) ensures that HPC sites of various scales, architectures, and vendor relationships can adopt our software. This inclusivity supports HPSF’s vision of promoting vendor-neutral solutions that strengthen the broader high-performance computing community.
+#### 3.6 Focus on Future-Ready HPC & AI
+* As demand grows for HPC infrastructure that supports AI and data-centric workloads, OpenCHAMI specifically targets flexibility in OS choice, hypervisor or bare metal, diskful or diskless boot, and integration with high-speed fabrics. We see this forward-looking approach as integral to HPSF’s mission of driving future innovation in HPC software.
+
+By serving as a practical and modern open-source toolkit for HPC infrastructure management, OpenCHAMI supports the High Performance Software Foundation’s core mission of fostering collaboration, openness, and innovation within the HPC community. We look forward to further engagement with HPSF members, sharing our technology, and learning from others in the broader HPC software ecosystem.
+
 
 ### 4. Project Website (please provide a link)
 
@@ -85,11 +100,13 @@ All source is maintained in Github repositories within the [OpenCHAMI Organizati
 All issues are tracked in the github repositories representing the different components of OpenCHAMI.  The project leadership also maintains[roadmap](https://github.com/openchami/roadmap) and [release](https://github.com/openchami/release) repositories with their own issue reporting that isn't tied to a specific component or to propose new functionality.  We report to the board through a [public github project](https://github.com/orgs/OpenCHAMI/projects/1) for larger initiatives.
 
 ### 11. Please list all external dependencies and their license
-
+* Refer to [External Dependencies document](https://github.com/OpenCHAMI/.github/linux_foundation/OpenChami-dependencies.md)
+  
 ### 12. Please describe your release methodology and mechanics
-
+* Please refer to [OpenChami Release](https://github.com/openchami/release)
+* The microservices containers are made available through ghcr.io. The release document listed above has references to the latest versions. 
 ### 13. Please describe Software Quality efforts (CI, security, auditing)
-
+We rely on github Vulnerability Code Scanning, CodeQL and Security advisories. We will be integrating OpenSSF scans and will work with the community in Threat Modeling,Pen-Testing and Audit. 
 ### 14. Please list the project's leadership team
 
 ** Technical Steering Committee**
