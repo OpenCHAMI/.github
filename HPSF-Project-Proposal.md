@@ -106,7 +106,7 @@ All issues are tracked in the github repositories representing the different com
 * Please refer to [OpenChami Release](https://github.com/openchami/release)
 * The microservices containers are made available through ghcr.io. The release document listed above has references to the latest versions. 
 ### 13. Please describe Software Quality efforts (CI, security, auditing)
-We rely on github Vulnerability Code Scanning, CodeQL and Security advisories. We will be integrating OpenSSF scans and will work with the community in Threat Modeling,Pen-Testing and Audit. 
+We rely on github Vulnerability Code Scanning, CodeQL and Security advisories. We will be integrating OpenSSF scans and will work with the community initiating Threat Modeling, Pen-Testing, and Security Audits. 
 ### 14. Please list the project's leadership team
 
 ** Technical Steering Committee**
