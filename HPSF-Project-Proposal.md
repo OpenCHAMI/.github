@@ -1,6 +1,6 @@
 ### 1. Name of Project
 
-**OpenCHAMI** Open Composable Heterogeneous Adaptive Management Infrastructure
+**OpenCHAMI** Open **C**omposable **H**eterogeneous **A**daptive **M**anagement **I**nfrastructure
 
 ### 2. Project Description
 
@@ -77,8 +77,7 @@ By serving as a practical and modern open-source toolkit for HPC infrastructure 
 
 ### 5. Open Source License (please provide a link)
 
-[MIT License](https://spdx.org/licenses/MIT.html): `GOES-here`
-[LICENSE](https://github.com/OpenCHAMI/.github/blob/main/LICENSE)
+[MIT License](https://spdx.org/licenses/MIT.html): [LICENSE](https://github.com/OpenCHAMI/.github/blob/main/LICENSE)
 
 
 ### 6. Code of Conduct (please provide a link)
@@ -90,6 +89,9 @@ By serving as a practical and modern open-source toolkit for HPC infrastructure 
 [Project Governance](https://github.com/OpenCHAMI/.github/blob/main/GOVERNANCE.MD)
 
 ### 8. Two Sponsors from the High Performance Software Foundation's Technical Advisory Committee
+
+1. Greg Becker
+1. Reid Priedhorsky
 
 ### 9. What is the project's solution for source control?
 
@@ -109,7 +111,7 @@ All issues are tracked in the github repositories representing the different com
 We rely on github Vulnerability Code Scanning, CodeQL and Security advisories. We will be integrating OpenSSF scans and will work with the community initiating Threat Modeling, Pen-Testing, and Security Audits. 
 ### 14. Please list the project's leadership team
 
-** Technical Steering Committee**
+**Technical Steering Committee**
 
 * [Alex Lovell-Troy](https://github.com/alexlovelltroy) **TSC Chair**  TSC Representative from LANL
 * [Matt Williams](https://github.com/milliams) TSC Representative from the University of Bristol
