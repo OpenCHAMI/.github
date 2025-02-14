@@ -6,7 +6,7 @@ Open Composable Heterogeneous Adaptable Management Infrastructure
 
 ## Consortium
 
-OpenCHAMI was created in 2023 as a collaborative consortium to deliver on a shared mission.
+OpenCHAMI is a Linux Foundation Project.  It was created in 2023 as a collaborative consortium to deliver on a shared mission.
 
 ### Mission
 
