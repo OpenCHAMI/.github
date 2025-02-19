@@ -6,7 +6,7 @@ In accordance with the [charter](CHARTER.MD), the Technical Steering Committee (
 
 ## Technical Leadership
 
-** Technical Steering Committee Lead: **  [Alex Lovell-Troy](https://github.com/alexlovelltroy)
+**Technical Steering Committee Lead:**  [Alex Lovell-Troy](https://github.com/alexlovelltroy)
 
 Role: As stated in the [Contribution Guide](CONTRIBUTING.md), the TSC lead is responsible for acting as a bridge between the TSC and the Board.  In order to effectively guide the project, the lead must be aware of the major issues and roadmap of the project and priorities of the consortium partners.  He or She is expected to help guide decisions in ways that are technically sound and responsive to the needs of the community.
 
