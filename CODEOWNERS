@@ -7,6 +7,9 @@
 #            drawn from different organisations.  Primary ownership is by scoped
 #            GitHub Teams (created under the OpenCHAMI org) rather than individuals.
 #  Rule order Top -> bottom; first match wins.
+# OpenCHAMI  –  Default CODEOWNERS for all repos that do NOT define their own.
+# Each service repo (smd, bss, magellan, …) should have its own simple
+# CODEOWNERS file that points to the appropriate maintainer team.  See below
 # ------------------------------------------------------------------------------
 
 #  Global fallback – anything not caught by a later rule
@@ -21,26 +24,14 @@
 /docs/**                        @openchami/docs-team
 /community/**                   @openchami/community-team
 
-# Core Services
-smd/**                          @openchami/smd-maintainers
-bss/**                          @openchami/bss-maintainers
-scheduler/**                    @openchami/scheduler-maintainers
-magellan/**                     @openchami/magellan-maintainers
-image-builder/**                @openchami/image-builder-maintainers
-cloud-init/**                   @openchami/cloud-init-maintainers
-coresmd/**                      @openchami/coresmd-maintainers
 
 # Build & CI tooling
 build/**                        @openchami/build-wg
 docker/**                       @openchami/build-wg
-.github/workflows/**            @openchami/ci-cd
+.github/**                      @openchami/ci-cd
 
 # Security
 SECURITY.md                     @openchami/security-wg
-keylime/**                      @openchami/security-wg
-
-#  Tests
-tests/**                        @openchami/qa-wg
 
 # RFC / RFD drafts
 rfds/**                         @openchami/rfd-editors

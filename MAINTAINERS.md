@@ -21,21 +21,19 @@ It complements `CODEOWNERS`, which GitHub uses to request reviews automatically.
 
 ## 2. Service-specific Maintainers 
 _Last updated: April 2025_
-
-| Service / Repo Path | GitHub Team | Maintainers † | Primary Responsibilities |
-|---------------------|------------|---------------|--------------------------|
-| `smd/**` | **@openchami/smd-maintainers** | Alex Lovell-Troy, Shane Unruh | State Management Database – node inventory & ad-hoc groups |
-| `bss/**` | **@openchami/bss-maintainers** | Devon Bautista, Mitchell Schooler | Boot Script Service – generates iPXE scripts for diskless/diskful nodes |
-| `magellan/**` | **@openchami/magellan-maintainers** | David Allen, Alex Lovell-Troy(?) | Redfish-based node discovery & firmware management |
-| `image-builder/**` | **@openchami/image-builder-maintainers** | Travis Cotton, Devon Bautista(?) | Build squashfs images for remote-boot HPC nodes |
-| `cloud-init/**` | **@openchami/cloud-init-maintainers** | Alex Lovell-Troy, Travis Cotton(?) | Generate cloud-init payloads; optional WireGuard TLS |
-| `coresmd/**` | **@openchami/coresmd-maintainers** | Devon Bautista, Travis Raines | CoreDHCP plugin that syncs DHCP data from SMD |
-| `.github/**` | **@openchami/build-wg** | Alex Lovell-Troy , Yogi Porla(?) | Build tooling, Dockerfiles, CI/CD pipelines |
-| `ochami/**` | **@openchami/ochami-team** | Devon Bautista, Alex Lovell-Troy | ochami: OpenCHAMI Command Line Interface |
-| `docs/**`, `openchami.org/**` | **@openchami/docs-team** | Yogi Porla, Alex Lovell-Troy | End-user & developer documentation |
-| `rfds/**` | **@openchami/rfd-editors** | Alex Lovell-Troy, Travis Raines | Request-for-Discussion drafts & editorial workflow |
-| `*` (fallback) | **@openchami/tsc** | All TSC members | Catch-all reviews & dispute resolution |
-  
+| Repository | GitHub Team | Maintainers † | Primary Responsibilities |
+|------------|-------------|---------------|--------------------------|
+| `smd` | **@openchami/smd-maintainers** | Alex Lovell-Troy, Shane Unruh | State Management DB – inventory & ad-hoc groups |
+| `bss` | **@openchami/bss-maintainers** | Devon Bautista, Mitchell Schooler | Boot Script Service – iPXE scripts |
+| `magellan` | **@openchami/magellan-maintainers** | David Allen, Alex Lovell-Troy | Redfish node discovery & firmware mgmt. |
+| `image-builder` | **@openchami/image-builder-maintainers** | Travis Cotton, Devon Bautista | Build squashfs images for remote-boot nodes |
+| `cloud-init` | **@openchami/cloud-init-maintainers** | Alex Lovell-Troy, Travis Cotton | Generate cloud-init payloads & optional WireGuard |
+| `coresmd` | **@openchami/coresmd-maintainers** | Devon Bautista, Travis Raines | CoreDHCP plugin syncing DHCP ↔ SMD |
+| `.github` | **@openchami/build-wg** | Alex Lovell-Troy, Yogi Porla | Org-wide workflows, Dockerfiles, CI/CD |
+| `ochami` (CLI) | **@openchami/ochami-team** | Devon Bautista, Alex Lovell-Troy | OpenCHAMI command-line interface |
+| `docs-site` / `openchami.org` | **@openchami/docs-team** | Yogi Porla, Alex Lovell-Troy | End-user & developer documentation |
+| `rfds` | **@openchami/rfd-editors** | Alex Lovell-Troy, Travis Raines | RFD drafts & editorial workflow |
+| _Any other repo_ | **@openchami/tsc** | All TSC members | Catch-all reviews & dispute resolution |
 Update this table whenever new maintainers or teams are added. docs and rfds are yet to be ported
 
 Each team owns day-to-day decisions for its directory and is the first-line reviewer on pull requests, as enforced by `CODEOWNERS`.
