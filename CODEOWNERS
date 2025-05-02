@@ -1,1 +1,48 @@
 @openchami/tsc
+
+# ------------------------------------------------------------------------------
+# OpenCHAMI CODEOWNERS
+#
+#  Purpose  Ensure every change receives review from a *neutral* set of maintainers
+#            drawn from different organisations.  Primary ownership is by scoped
+#            GitHub Teams (created under the OpenCHAMI org) rather than individuals.
+#  Rule order Top -> bottom; first match wins.
+# OpenCHAMI  –  Default CODEOWNERS for all repos that do NOT define their own.
+# Each service repo (smd, bss, magellan, …) should have its own simple
+# CODEOWNERS file that points to the appropriate maintainer team.  See below
+# ------------------------------------------------------------------------------
+
+#  Global fallback – anything not caught by a later rule
+*                           @openchami/tsc
+
+
+
+# Global fallback – if nothing below matches, the TSC reviews
+*                               @openchami/tsc
+
+#  Documentation & community material
+/docs/**                        @openchami/docs-team
+/community/**                   @openchami/community-team
+
+
+# Build & CI tooling
+build/**                        @openchami/build-wg
+docker/**                       @openchami/build-wg
+.github/**                      @openchami/ci-cd
+
+# Security
+SECURITY.md                     @openchami/security-wg
+
+# RFC / RFD drafts
+rfds/**                         @openchami/rfd-editors
+
+
+# ------------------------------------------------------------------------------
+# Notes
+# • Teams like @openchami/smd-maintainers should contain *at least two* people
+#   from different member organisations to keep governance vendor-neutral.
+# • The @openchami/tsc team should include all current TSC members and acts as
+#   the “catch-all” reviewer if no more-specific match exists.
+# • Update this file whenever you add a new top-level directory or create a
+#   dedicated working group.
+# ------------------------------------------------------------------------------

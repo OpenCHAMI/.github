@@ -1,7 +1,7 @@
 # Contributing Guidelines
 
 
-Welcome to OpenCHAMI. We are excited about the prospect of you joining our [community](https://github.com/openchami/community)! The OpenCHAMI community abides by a standard open source [code of conduct](CODE_OF_CONDUCT.md). Here is an excerpt:
+Welcome to **OpenCHAMI** — a Linux Foundation Projects (LFP) / HPC Software Foundation (HPSF) community project. We are excited about the prospect of you joining our [community](https://github.com/openchami/community)! The OpenCHAMI community abides by a standard open source [code of conduct](CODE_OF_CONDUCT.md). Here is an excerpt:
 
 _As contributors and maintainers of this project, and in the interest of fostering an open and welcoming community, we pledge to respect all people who contribute through reporting issues, posting feature requests, updating documentation, submitting pull requests or patches, and other activities._
 
@@ -30,6 +30,41 @@ Don't get discouraged!  The first rule of open source contribution is, *"Yes is 
 - Code comments are great signposts to help us follow your logic.
 - Smaller PRs are easier to review.  Can you split this up?
 - Correctness proofs are awesome.  Include them in the description/readme/docs/tests wherever they are most appropriate for your code.
+
+## Developer Certificate of Origin(DCO)
+
+### DCO / CLA & Test Requirements
+
+OpenCHAMI is an **LF Projects / HPSF** project.  To protect contributors and downstream users, we require **either** a Developer Certificate of Origin (**DCO**) sign-off **or** signature on our Contributor License Agreement (**CLA**).  Most individual contributors will use the DCO; corporate contributors may prefer the EasyCLA workflow.
+
+---
+
+### Developer Certificate of Origin (DCO)
+
+
+
+**Configure Git with your real name & email** (one-time):
+   ```bash
+   git config --global user.name  "Your Name"
+   git config --global user.email "you@example.com"
+```
+
+#### Signing Your Work  (DCO & Cryptographic Signatures)
+
+OpenCHAMI uses the **Developer Certificate of Origin (DCO)**. Each commit must contain a
+`Signed-off-by:` line, which you add with `git commit -s`.
+
+GitHub fully supports this as an extra layer of verification:
+
+> See GitHub Docs
+> <https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits>
+
+Both the DCO *and* a valid cryptographic signature (if you choose to enable one) will
+be checked by our CI bots. Forgotten to sign? Simply amend and force-push:
+```bash
+git commit --amend -s   # add the DCO line
+git push --force
+```
 
 ## Contact Information
 
