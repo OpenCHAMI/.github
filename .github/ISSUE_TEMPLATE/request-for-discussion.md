@@ -10,21 +10,17 @@ assignees: ''
 # Instructions (Delete me)
 
 Writing down ideas is important:  it allows them to be rigorously formulated (even while nascent), candidly discussed and transparently shared.
-We capture the written expression of an idea in a *Request for Discussion* (RFD), a document in the original spirit of the https://en.wikipedia.org/wiki/Request_for_Comments[IETF Request for Comments], as expressed by https://tools.ietf.org/html/rfc3[RFC 3]:
+We capture the written expression of an idea in a *Request for Discussion* (RFD), a document in the original spirit of the [IETF Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments), as expressed by [RFC 3](https://tools.ietf.org/html/rfc3):
 
-____
-The content of a note may be any thought, suggestion, etc.
-related to the software or other aspect of the network.
-Notes are encouraged to be timely rather than polished.
-Philosophical positions without examples or other specifics, specific suggestions or implementation techniques without introductory or background explication, and explicit questions without any attempted answers are all acceptable.
-The minimum length for a note is one sentence.
-____
+> The content of a note may be any thought, suggestion, etc.
+> related to the software or other aspect of the network.
+> Notes are encouraged to be timely rather than polished.
+> Philosophical positions without examples or other specifics, specific suggestions or implementation techniques without introductory or background explication, and explicit questions without any attempted answers are all acceptable.
+> The minimum length for a note is one sentence.
 
-____
-These standards (or lack of them) are stated explicitly for two reasons.
-First, there is a tendency to view a written statement as ipso facto authoritative, and we hope to promote the exchange and discussion of considerably less than authoritative ideas.
-Second, there is a natural hesitancy to publish something unpolished, and we hope to ease this inhibition.
-____
+> These standards (or lack of them) are stated explicitly for two reasons.
+> First, there is a tendency to view a written statement as ipso facto authoritative, and we hope to promote the exchange and discussion of considerably less than authoritative ideas.
+> Second, there is a natural hesitancy to publish something unpolished, and we hope to ease this inhibition.
 
 Similar to RFCs, our philosophy of RFDs is to allow both timely discussion of rough ideas, while still becoming a permanent repository for more established ones.
 Depending on their state, RFDs may be quickly iterated on in a branch, discussed actively as part of a pull request to be merged, or commented upon after having been published.
