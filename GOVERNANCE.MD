@@ -1,5 +1,5 @@
 # Governance of the OpenCHAMI Project
-_Last updated: April 2025_
+_Last updated: May 2025_
 
 This file describes the current governance of the OpenCHAMI Project. 
 In accordance with the [charter](CHARTER.MD), the Technical Steering Committee (TSC) is responsible for technical guidance of the project.
@@ -13,19 +13,29 @@ In accordance with the [charter](CHARTER.MD), the Technical Steering Committee (
 | **TSC Lead** | [Alex Lovell‑Troy](https://github.com/alexlovelltroy) | Apr 2025 – Mar 2026 | Elected annually by TSC simple‑majority vote |
 
 
-Role: As stated in the [Contribution Guide](CONTRIBUTING.md), the TSC lead is responsible for acting as a bridge between the TSC and the Board.  In order to effectively guide the project, the lead must be aware of the major issues and roadmap of the project and priorities of the consortium partners.  He or She is expected to help guide decisions in ways that are technically sound and responsive to the needs of the community.
+Role: As stated in the [Contribution Guide](CONTRIBUTING.md), the TSC lead acts as a bridge between the TSC and the Board. To effectively guide the project, the lead must stay informed about major issues, the project roadmap, and priorities of consortium partners. They are expected to help guide decisions in ways that are technically sound and responsive to community needs.
 
-#### 1.1.1 Adding / Removing TSC Members
+#### 1.1.1 TSC Members
+
+| Member | GitHub handle | Affiliation |
+|--------|--------------|-------------|
+| Alex Lovell‑Troy | [@alexlovelltroy](https://github.com/alexlovelltroy) | LANL |
+| Mark Klein | [@mdklein](https://github.com/mdklein) | CSCS |
+| Matt Williams | [@milliams](https://github.com/milliams) | University of Bristol (BriCS) |
+| Brian Friesen | [@bcfriesen](https://github.com/bcfriesen) | NERSC |
+| Harold Longley | [@haroldlongley](https://github.com/haroldlongley) | HPE |
+
+
+#####  Adding / Removing TSC Members
 * Any contributor may self‑nominate or be nominated via a pull request to `community/tsc-rollups.md`.  
-* Approval by existing TSC members requires **⅔ majority** of those voting.  
-* Persistent inactivity (> 6 months) may trigger a removal vote.
+* Approval by existing TSC members requires **simple majority** of those voting.  
+* Persistent inactivity (defined as no participation for over 6 months) may trigger a removal vote.
 
 #### 1.1.2 Decision‑Making
-The TSC follows a **consensus‑seeking model**:
+The TSC follows a **consensus‑seeking model**: Please refer to the [charter](CHARTER.MD).
 1. Discussion on GitHub Issues / PRs or in scheduled TSC calls.  
 2. Rough consensus is assumed unless objections are raised.  
 3. If consensus cannot be reached, a vote is called; decisions pass with **simple majority** (> 50 %).  
-4. **Breaking/architecture‑wide changes** require a **⅔ super‑majority**.
 
 ---
 
@@ -54,8 +64,11 @@ Each founding partner must nominate one primary and one alternate Board member. 
 ### 2.3 Voting & Quorum
 * **Quorum:** 50 % of voting members.  
 * **Simple majority** approves routine motions; **⅔** required for budget, Charter changes, or dissolution.
+* **Conflict resolution:** Conflicts unresolved through voting can be escalated to LF Projects staff at [projects@linuxfoundation.org](mailto:projects@linuxfoundation.org).
 
-### 2.3 Admission of New Members
+
+
+### 2.4 Admission of New Members
 The Board is expanded by the inclusion of non-founding partners who have demonstrated their commitment to the Consortium by dedicating resources to the project and delivering on that commitment for at least six consecutive months.
 
 Non-founding partners must be nominated by an existing partner and accepted by a majority vote of the Board. Upon acceptance, non-founding partners have the right to nominate a primary and alternate Board member.
@@ -73,7 +86,9 @@ It is the responsibility of the TSC to organize SIGs and temporary working group
 
 ## 4. Technical Standards Process
 
-The TSC is responsible for the quality of technical changes to the project.  In order to facilitate robust and transparent discussion surrounding the standards, the TSC has created a structured area for discussion in this repository under [rfds](/rfds/) that is loosely based on earlier work from the [IETF](https://datatracker.ietf.org/doc/html/rfc3) and the team at [Oxide.Computer](https://oxide.computer/blog/rfd-1-requests-for-discussion)
+The TSC ensures the quality of technical changes. Discussions occur transparently in the repository under [RFDs](https://github.com/OpenCHAMI/roadmap/issues), modeled after practices from the [IETF](https://datatracker.ietf.org/doc/html/rfc3) and [Oxide](https://oxide.computer/blog/rfd-1-requests-for-discussion).
+
+**Currently, the project is evaluating whether to adopt a Developer Certificate of Origin (DCO) or a Contributor License Agreement (CLA). A formal decision will be documented here once finalized.**
 
 ---
 
@@ -93,6 +108,12 @@ The OpenCHAMI project follows version 2.0 of the [Contributor Covenant](https://
 
 Unless otherwise noted, all source code is released under the **MIT License**.  
 By contributing, you agree that your contributions will be licensed under the same terms.
+
+---
+
+## 8. Communication
+
+OpenCHAMI primarily uses [Slack](https://openchami.slack.com) for community discussions and real-time communication. Technical discussions, proposals, and **Requests for Discussion (RFDs)** occur on [GitHub](https://github.com/OpenCHAMI/roadmap/issues). Community members are encouraged to join the [OpenCHAMI Slack workspace](https://openchami.slack.com) and actively participate in discussions and decision-making processes.
 
 ---
 
