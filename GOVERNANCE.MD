@@ -27,7 +27,7 @@ Role: As stated in the [Contribution Guide](CONTRIBUTING.md), the TSC lead acts 
 
 
 #####  Adding / Removing TSC Members
-* Any contributor may self‑nominate or be nominated via a pull request to `community/tsc-rollups.md`.  
+* Any contributor may self‑nominate or be nominated via a pull request to [community/TSC repo](https://github.com/OpenCHAMI/community/tree/main/TSC/tsc-rollups.md).  
 * Approval by existing TSC members requires **simple majority** of those voting.  
 * Persistent inactivity (defined as no participation for over 6 months) may trigger a removal vote.
 
