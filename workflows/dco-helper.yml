@@ -1,3 +1,7 @@
+# This workflow checks the DCO status of a pull request and comments if it fails.
+# It runs on pull request events and uses the GitHub API to check the DCO status
+# of the commits in the pull request. If the DCO check fails, it comments on the pull request
+# with instructions on how to fix it.
 name: DCO Helper Comment
 
 on:

@@ -69,7 +69,7 @@ jobs:
 
 ```bash
 mkdir -p .github/workflows
-$EDITOR .github/workflows/dco-check.yml   # paste YAML above
+$vi .github/workflows/dco-check.yml   # paste YAML above
 git add .github/workflows/dco-check.yml
 git commit -m "Add sandbox DCO check workflow"
 git push
@@ -125,7 +125,7 @@ git push --force-with-lease
 
 1. Fork `dco-sandbox` from another GitHub account
 2. Make an unsigned PR
-3. If you added a **welcome workflow** (`welcome-new.yml`), verify a greeting comment with DCO instructions appears.
+3. For **welcome workflow** (`welcome-new.yml`), verify a greeting comment with DCO instructions appears.
 
 ---
 

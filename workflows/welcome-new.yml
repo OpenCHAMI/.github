@@ -1,3 +1,10 @@
+# This workflow welcomes first-time contributors to the repository.
+# It runs on pull requests that are opened and uses the `garg3133/welcome-new-contributors` action
+# to greet the contributor and provide instructions on how to sign off their commits.
+# The action uses the `GITHUB_TOKEN` secret to authenticate and post a message in the pull request.
+# The message includes a one-liner command to set up Git for DCO sign-off.
+# This workflow is intended to be used in the OpenCHAMI repository to ensure that
+# new contributors are welcomed and informed about the DCO requirements.
 name: Welcome First-Time Contributors
 on:
   pull_request_target:
