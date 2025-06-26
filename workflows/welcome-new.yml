@@ -1,0 +1,20 @@
+name: Welcome First-Time Contributors
+on:
+  pull_request_target:
+    types: [opened]
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: garg3133/welcome-new-contributors@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          pr-message: |
+            👋  Welcome @${{ github.actor }}!  
+            OpenCHAMI requires a **DCO sign-off** on every commit.  
+            Run the one-liner below to configure Git and auto-enforce sign-off locally:
+            ```bash
+            curl -fsSL https://raw.githubusercontent.com/OpenCHAMI/.github/main/scripts/setup-dco.sh | bash
+            ```
