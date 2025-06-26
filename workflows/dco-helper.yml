@@ -1,0 +1,41 @@
+# This workflow checks the DCO status of a pull request and comments if it fails.
+# It runs on pull request events and uses the GitHub API to check the DCO status
+# of the commits in the pull request. If the DCO check fails, it comments on the pull request
+# with instructions on how to fix it.
+name: DCO Helper Comment
+
+on:
+  pull_request_target:
+    types: [synchronize, opened, reopened]
+
+jobs:
+  comment-on-dco-fail:
+    if: github.event.pull_request.head.repo.full_name != 'OpenCHAMI/.github'
+    permissions:
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check DCO status
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const checks = await github.rest.checks.listForRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: pr.head.sha
+            });
+            const dco = checks.data.check_runs.find(c => c.name === 'DCO');
+            if (dco && dco.conclusion === 'failure') {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr.number,
+body: |
+  🚨 **DCO check failed**  
+  Please sign off your commits with `git commit -s`.  
+  Quick fix: run  
+      curl -fsSL https://raw.githubusercontent.com/OpenCHAMI/.github/main/scripts/setup-dco.sh | bash
+  Then amend your commits and force-push.
+              });
+            }
