@@ -1,9 +1,9 @@
 ---
 name: Request for Discussion
-about: Propose a topic for discussion (see [RFD_GUIDE.md](https://github.com/openchami/.github/blob/main/RFD_GUIDE.md) for philosophy and examples)
+description: Propose a topic for discussion (see [RFD_GUIDE.md](https://github.com/openchami/.github/blob/main/RFD_GUIDE.md) for philosophy and examples)
 title: "[RFD]: "
 labels: rfd
-assignees: ''
+assignees: []
 body:
   - type: input
     id: goal
