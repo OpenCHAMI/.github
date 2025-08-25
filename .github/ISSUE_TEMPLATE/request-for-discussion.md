@@ -4,6 +4,20 @@ about: Suggest a topic for discussion according to the principles in Oxide's RFD
 title: "[RFD]"
 labels: rfd
 assignees: ''
+body:
+  - type: input
+    id: goal
+    attributes:
+      label: Decision goal
+      description: What decision do we want from discussion?
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+  - type: textarea
+    id: links
+    attributes:
+      label: Related docs/PRs
 
 ---
 
