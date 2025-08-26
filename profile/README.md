@@ -21,6 +21,8 @@ See our [community repository](https://www.github.com/openchami/community) for:
 * Charter [Charter.md](https://github.com/OpenCHAMI/community/blob/main/Charter.md)
 * Governance [Governance.md](https://github.com/OpenCHAMI/community/blob/main/Governance.md)
 
+Join our public meetings through our [Public Linux Foundation Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/openchami?view=week)
+
 ## Software
 
 OpenCHAMI stresses composability.  Each piece of software should be independently useful with clear boundaries.  Where a third-party open source project can be leveraged, we prefer it.
