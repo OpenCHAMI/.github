@@ -12,37 +12,38 @@ OpenCHAMI is a Linux Foundation Project.  It was created in 2023 as a collaborat
 
 The mission of the OpenCHAMI consortium is to steward the collaborative development and continuous evolution of cloud-like software to manage High Performance Computing capacity regardless of the size or deployment platform.  We are guided by the operators and practitioners who use modern tooling and concepts to address the needs of classical HPC applications and the growing AI/ML and Data Science community that wish to leverage HPC capacity within their own workflows, to meet their needs with their own tools.
 
-### Membership
+### Membership and Governance
 
-The five founding members have each contributed time, resources, and software to the effort
+See our [community repository](https://www.github.com/openchami/community) for:
 
-* [Bristol Centre for Supercomputing (BriCS)](https://www.bristol.ac.uk/campaigns/bristol-supercomputing/)
-* [Swiss National Supercomputing Centre (CSCS)](https://www.cscs.ch/)
-* [Hewlett Packard Enterprise (HPE)](https://www.hpe.com/us/en/compute/hpc/supercomputing)
-* [Los Alamos National Laboratory (LANL)](https://www.lanl.gov/)
-* [National Energy Research Scientific Computing Center (NERSC)](https://www.nersc.gov/)
+* TSC Membership [TSC/tsc-rollups.md](https://github.com/OpenCHAMI/community/blob/main/TSC/tsc-rollups.md)
+* Board Membership [Board/board-rollups.md](https://github.com/OpenCHAMI/community/blob/main/Board/board-rollups.md)
+* Charter [Charter.md](https://github.com/OpenCHAMI/community/blob/main/Charter.md)
+* Governance [Governance.md](https://github.com/OpenCHAMI/community/blob/main/Governance.md)
 
-### Joining
-
-If your site is interested in joining the consortium, contact us at [admin@openchami.org](admin@openchami.org)
+Join our public meetings through our [Public Linux Foundation Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/openchami?view=week)
 
 ## Software
 
 OpenCHAMI stresses composability.  Each piece of software should be independently useful with clear boundaries.  Where a third-party open source project can be leveraged, we prefer it.
 
-* **[Magellan](https://github.com/openchami/magellan)** - Redfish-based tool for automatic node discovery and firmware management
+### Core Software
+
+Core parts of OpenCHAMI are specifically developed to work together.  They __may__ also be useful separately, but are not developed and tested this way.
+
+
 * **[State Management Database (SMD)](https://github.com/openchami/smd)** - Compute Node Inventory Daemon with support for ad-hoc group
 * **[Boot Script Service (BSS)](https://github.com/openchami/bss)** - Automatic boot script generation for diskless/diskful HPC Compute Nodes
-* **[Image Builder](https://github.com/openchami/image-builder)** - Tooling for creating squashfs filesystems for remote booting HPC Nodes
+
 * **[Cloud-Init Server](https://github.com/openchami/cloud-init)** - Automatic generation of cloud-init payloads with optional machine identity and optional transport layer security through Wireguard
 * **[coresmd](https://github.com/openchami/coresmd)** - CoreDHCP plugin for autmatically updating the DHCP configuration based on information from the rest of OpenCHAMI
 
-### Third Party Open Source
+## Support Software
 
-* **[Step-CA](https://smallstep.com/certificates/)** - ACME certificate authority designed to be run as a microservice
-* **[Haproxy](https://www.haproxy.org/)** - Reverse proxy for allowing all microservices to be accessible through a single http(s) host
-* **[Ory Hydra](https://github.com/ory/hydra)** - OIDC provider to use site identity for authorization within OpenCHAMI
-* **[Postgresql](https://www.postgresql.org/)** - Database persistence for services that need it
+Some parts of the OpenCHAMI ecosystem exist because there was no open source alternative that met our needs.  We try to keep these pices of software generic enough to be useful without the core OpenCHAMI software.
+
+* **[Magellan](https://github.com/openchami/magellan)** - Redfish-based tool for automatic node discovery and firmware management
+* **[Image Builder](https://github.com/openchami/image-builder)** - Tooling for creating squashfs filesystems for remote booting HPC Nodes
 
 
 ## Getting Started
