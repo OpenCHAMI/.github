@@ -8,14 +8,14 @@ _As contributors and maintainers of this project, and in the interest of fosteri
 ## Leadership
 
 
-As stated in the [charter](CHARTER.MD) and [governance](GOVERNANCE.MD) documents, the board is repsonsible for guiding the TSC and the TSC is responsible for operation of the project.  The TSC lead is the representative of the TSC on the board.  This role is established to provide a bridge between the two bodies and is responsible for transparent communication.  As of January 2025, [Alex Lovell-Troy](https://github.com/alexlovelltroy) is the TSC lead.
+As stated in the [charter](https://github.com/OpenCHAMI/community/blob/main/Charter.md) and [governance](https://github.com/OpenCHAMI/community/blob/main/Governance.md) documents, the board is repsonsible for guiding the TSC and the TSC is responsible for operation of the project.  The TSC lead is the representative of the TSC on the board.  This role is established to provide a bridge between the two bodies and is responsible for transparent communication.  As of August 2025, [Alex Lovell-Troy](https://github.com/alexlovelltroy) is the TSC lead.
 
 ## Getting Started
 
 
 We have full documentation on how to get started contributing here:
 
-- [Our Values](https://github.com/openCHAMI/.github/blob/main/VALUES.md) We do our best to live our values in all contributions
+- [Our Values](https://github.com/OpenCHAMI/community/blob/main/VALUES.md) We do our best to live our values in all contributions
 - [Architectural Principles](https://github.com/OpenCHAMI/community/blob/main/TSC/Principles.md) We seek to uphold our principles with each change to any OpenCHAMI code
 
 ## Quality Standards in Code Reviews
@@ -51,15 +51,15 @@ OpenCHAMI is an **LF Projects / HPSF** project.  To protect contributors and dow
 
 #### Signing Your Work  (DCO & Cryptographic Signatures)
 
-OpenCHAMI uses the **Developer Certificate of Origin (DCO)**. Each commit must contain a
-`Signed-off-by:` line, which you add with `git commit -s`.
+OpenCHAMI uses the **Developer Certificate of Origin (DCO)**. Each commit must contain a `Signed-off-by:` line, which you add with `git commit -s`.
 
 GitHub fully supports this as an extra layer of verification:
 
 > See GitHub Docs
-> <https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits>
+  * https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits
+  * https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification
 
-Both the DCO *and* a valid cryptographic signature (if you choose to enable one) will
+Both the DCO *and* a valid cryptographic signature will
 be checked by our CI bots. Forgotten to sign? Simply amend and force-push:
 ```bash
 git commit --amend -s   # add the DCO line
