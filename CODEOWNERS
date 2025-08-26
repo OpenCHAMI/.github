@@ -21,23 +21,6 @@
 # Global fallback – if nothing below matches, the TSC reviews
 *                               @openchami/tsc
 
-#  Documentation & community material
-/docs/**                        @openchami/docs-team
-/community/**                   @openchami/community-team
-
-
-# Build & CI tooling
-build/**                        @openchami/build-wg
-docker/**                       @openchami/build-wg
-.github/**                      @openchami/ci-cd
-
-# Security
-SECURITY.md                     @openchami/security-wg
-
-# RFC / RFD drafts
-rfds/**                         @openchami/rfd-editors
-
-
 # ------------------------------------------------------------------------------
 # Notes
 # • Teams like @openchami/smd-maintainers should contain *at least two* people
