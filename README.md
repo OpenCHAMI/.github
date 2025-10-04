@@ -21,6 +21,10 @@ See our [community repository](https://www.github.com/openchami/community) for:
 
 ## License and Copyright
 
-By default, repositories and code under the OpenCHAMI project are distribuited under the [MIT License](LICENSE).  More information about the MIT license can be found at [opensource.org](https://opensource.org/license/mit).  The copyright is included in the license file.  Unless otherwise specified, it covers all contributions to the project.  If a copyright statement is needed for each file, it should follow the [OpenCHAMI Copyright Statement](COPYRIGHT.md): 
+This project aims to follow the [REUSE Specification](https://reuse.software/spec-3.3/). 
+
+By default, repositories and code under the OpenCHAMI project are distribuited under the [MIT License](LICENSE).  More information about the MIT license can be found at [opensource.org](https://opensource.org/license/mit).
+
+See [Copyright.md](https://github.com/OpenCHAMI/community/Copyright.md) in the [Community Repository](https://github.com/OpenCHAMI/community/) for detailed headers and instructions.
 
 `Copyright © 2025 Contributors to the OpenCHAMI Project`
