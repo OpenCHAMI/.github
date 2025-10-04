@@ -7,11 +7,9 @@ _As contributors and maintainers of this project, and in the interest of fosteri
 
 ## Leadership
 
-
 As stated in the [charter](https://github.com/OpenCHAMI/community/blob/main/Charter.md) and [governance](https://github.com/OpenCHAMI/community/blob/main/Governance.md) documents, the board is repsonsible for guiding the TSC and the TSC is responsible for operation of the project.  The TSC lead is the representative of the TSC on the board.  This role is established to provide a bridge between the two bodies and is responsible for transparent communication.  As of August 2025, [Alex Lovell-Troy](https://github.com/alexlovelltroy) is the TSC lead.
 
 ## Getting Started
-
 
 We have full documentation on how to get started contributing here:
 
@@ -19,7 +17,6 @@ We have full documentation on how to get started contributing here:
 - [Architectural Principles](https://github.com/OpenCHAMI/community/blob/main/TSC/Principles.md) We seek to uphold our principles with each change to any OpenCHAMI code
 
 ## Quality Standards in Code Reviews
-
 
 Don't get discouraged!  The first rule of open source contribution is, *"Yes is forever"*.  We are slow to adopt new ideas that we'll have to maintain for years to come specifically because we care about the long term success of the software here.  If you find that the team is slow to accept a PR and/or seems to be very picky with code standards, remember that these rules protect all of us.
 
@@ -30,6 +27,34 @@ Don't get discouraged!  The first rule of open source contribution is, *"Yes is 
 - Code comments are great signposts to help us follow your logic.
 - Smaller PRs are easier to review.  Can you split this up?
 - Correctness proofs are awesome.  Include them in the description/readme/docs/tests wherever they are most appropriate for your code.
+
+## REUSE Compliance for License and Copyright
+
+This project aims to follow the [REUSE Specification](https://reuse.software/spec-3.3/) with appropriate headers
+
+1. **Copyright Notice**
+   ```
+   SPDX-FileCopyrightText: YEAR NAME/ORG <contact optional>
+   ```
+
+2. **License Identifier**
+   ```
+   SPDX-License-Identifier: MIT
+   ```
+
+- Place these at the top of each source file in a comment.  
+- For non-commentable files (images, binaries, data), create a sidecar `<filename>.license` file.  
+- Only licenses referenced in code should appear in the `LICENSES/` directory.  
+
+For full details, see [Copyright.md](https://github.com/OpenCHAMI/community/Copyright.md)
+
+## Workflow
+
+- Fork the repository and create feature branches.  
+- Run tests and linting before submitting.  
+- Open a Pull Request and ensure it passes CI checks.  
+
+Thank you for helping keep the project clean and compliant!
 
 ## Developer Certificate of Origin(DCO)
 
