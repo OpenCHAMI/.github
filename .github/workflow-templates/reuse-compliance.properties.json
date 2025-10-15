@@ -1,0 +1,13 @@
+{
+  "name": "REUSE Compliance Check",
+  "description": "Validates that all files in the repository comply with REUSE software licensing specifications, ensuring proper copyright and license headers.",
+  "iconName": "octicon-law",
+  "categories": ["Continuous integration", "Compliance", "Legal"],
+  "filePatterns": [
+    "^\\.reuse/",
+    "^LICENSES/",
+    "^README\\.md$",
+    "^LICENSE$",
+    "^COPYING$"
+  ]
+}
