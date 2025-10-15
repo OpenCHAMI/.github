@@ -1,0 +1,34 @@
+name: org-triage-new-issues
+on:
+  workflow_call:
+
+permissions:
+  issues: write
+
+jobs:
+  move_if_feature_request:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Transfer feature requests to roadmap repo
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_REPO: openchami/roadmap   
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+        run: |
+          # Only act on labeled 'feature-request' issues
+          gh issue view "$ISSUE_URL" --json labels \
+          | jq -e '.labels[].name | select(.=="feature-request")' >/dev/null \
+          && gh issue transfer "$ISSUE_URL" "$TARGET_REPO" || echo "Not a feature request"
+  move_if_rfd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Transfer rfd issues to roadmap repo
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_REPO: openchami/roadmap   
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+        run: |
+          # Only act on labeled 'rfd' issues
+          gh issue view "$ISSUE_URL" --json labels \
+          | jq -e '.labels[].name | select(.=="rfd")' >/dev/null \
+          && gh issue transfer "$ISSUE_URL" "$TARGET_REPO" || echo "Not a feature request"

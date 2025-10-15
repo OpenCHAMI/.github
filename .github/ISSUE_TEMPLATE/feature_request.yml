@@ -1,0 +1,46 @@
+name: Feature request
+about: Suggest an idea for this project
+title: "[FEATURE] "
+labels: feature-request
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest a feature!
+  - type: textarea
+    id: what-you-want
+    attributes:
+      label: Describe the feature
+      description: A clear and concise description of what the feature is.
+      placeholder: Tell us what you want!
+      value: "I would like a new feature that..."
+    validations:
+      required: true
+  - type: textarea
+    id: why-you-want-it
+    attributes:
+      label: Why do you want this feature?
+      description: Please explain why you think this feature would be useful.
+      placeholder: It would help me to...
+      value: "This feature would help me because..."
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Have you considered any alternative solutions or workarounds?
+      placeholder: I thought about...
+      value: "I considered doing..."
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here.
+      placeholder: Any other details...
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](

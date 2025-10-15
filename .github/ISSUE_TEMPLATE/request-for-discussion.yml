@@ -3,7 +3,7 @@ name: Request for Discussion
 description: Propose a topic for discussion (see [RFD_GUIDE.md](https://github.com/openchami/.github/blob/main/RFD_GUIDE.md) for philosophy and examples)
 title: "[RFD]: "
 labels: rfd
-assignees: []
+
 body:
   - type: input
     id: goal
