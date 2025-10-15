@@ -1,0 +1,7 @@
+{
+  "name": "Org-wide Issue Triage",
+  "description": "Automatically moves or labels feature request issues to the central planning repository.",
+  "iconName": "octicon-issue-opened",
+  "categories": ["Automation", "Issue management"],
+  "filePatterns": [".github/ISSUE_TEMPLATE/"]
+}
