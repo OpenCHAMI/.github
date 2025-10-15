@@ -30,4 +30,4 @@ Fixes #(issue)
 
 ---
 
-For more info, see [Contributing Guidelines](https://github.com/OpenCHAMI/.github/CONTRIBUTING.md).
+For more info, see [Contributing Guidelines](https://github.com/OpenCHAMI/.github/blob/main/CODE_OF_CONDUCT.md).
