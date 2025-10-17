@@ -5,4 +5,4 @@ on:
 
 jobs:
   call-org-triage:
-    uses: openchami/.github/.github/workflows/triage-feature-requests.yml@main
+    uses: OpenCHAMI/.github/workflows/triage-new-issues.yml@main
