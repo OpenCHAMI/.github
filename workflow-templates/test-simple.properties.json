@@ -1,0 +1,6 @@
+{
+  "name": "Simple Test Template",
+  "description": "A simple test template to verify workflow templates are working.",
+  "iconName": "octicon-beaker",
+  "categories": ["Testing"]
+}
