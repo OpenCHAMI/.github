@@ -1,8 +1,0 @@
-name: Triage feature requests
-on:
-  issues:
-    types: [opened, labeled]
-
-jobs:
-  call-org-triage:
-    uses: OpenCHAMI/.github/workflows/triage-new-issues.yml@main

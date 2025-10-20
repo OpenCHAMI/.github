@@ -1,7 +1,0 @@
-{
-  "name": "Go: Build & Release (GoReleaser)",
-  "description": "Builds and publishes Go releases via the org reusable workflow (GoReleaser).",
-  "iconName": "octicon rocket",
-  "categories": ["Go", "Continuous integration", "Deployment"],
-  "filePatterns": ["^go\\.mod$", "^\\.goreleaser\\.ya?ml$"]
-}
