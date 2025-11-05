@@ -1,7 +1,7 @@
 name: Feature request
-about: Suggest an idea for this project
-title: "[FEATURE] "
-labels: feature-request
+description: Suggest an idea for this project.
+title: "[Feature]: "
+labels: [feature-request]
 
 body:
   - type: markdown
@@ -14,7 +14,7 @@ body:
       label: Describe the feature
       description: A clear and concise description of what the feature is.
       placeholder: Tell us what you want!
-      value: "I would like a new feature that..."
+      value: I would like a new feature that...
     validations:
       required: true
   - type: textarea
@@ -23,7 +23,7 @@ body:
       label: Why do you want this feature?
       description: Please explain why you think this feature would be useful.
       placeholder: It would help me to...
-      value: "This feature would help me because..."
+      value: This feature would help me because...
     validations:
       required: true
   - type: textarea
@@ -32,7 +32,7 @@ body:
       label: Alternatives you've considered
       description: Have you considered any alternative solutions or workarounds?
       placeholder: I thought about...
-      value: "I considered doing..."
+      value: I considered doing...
   - type: textarea
     id: additional-context
     attributes:
@@ -43,4 +43,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/OpenCHAMI/.github/blob/main/CODE_OF_CONDUCT.md).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

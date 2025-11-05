@@ -3,7 +3,7 @@ name: Mark Stale Issues
 on:
   schedule:
     # Run daily at 9 AM UTC to check for stale issues
-    - cron: '0 9 * * *'
+    - cron: 0 9 * * *
   workflow_dispatch:  # Allow manual triggering
 
 permissions:
@@ -20,14 +20,14 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           days-before-stale: 42  # 6 weeks
           stale-issue-message: |
-            This issue has been automatically marked as stale because it has not had recent activity for 6 weeks. 
+            This issue has been automatically marked as stale because it has not had recent activity for 6 weeks.
             It will be closed if no further activity occurs within 7 days.
-            
+
             If you believe this issue is still relevant, please comment to keep it open.
-          stale-issue-label: 'stale'
+          stale-issue-label: stale
           days-before-close: 7
           close-issue-message: |
-            This issue has been automatically closed due to inactivity. 
+            This issue has been automatically closed due to inactivity.
             If you believe this issue should remain open, please reopen it and provide an update.
           # Don't mark PRs as stale (only issues)
           days-before-pr-stale: -1

@@ -12,7 +12,7 @@ jobs:
       - name: Transfer feature requests to roadmap repo
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TARGET_REPO: openchami/roadmap   
+          TARGET_REPO: openchami/roadmap
           ISSUE_URL: ${{ github.event.issue.html_url }}
         run: |
           # Only act on labeled 'feature-request' issues
@@ -25,7 +25,7 @@ jobs:
       - name: Transfer rfd issues to roadmap repo
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TARGET_REPO: openchami/roadmap   
+          TARGET_REPO: openchami/roadmap
           ISSUE_URL: ${{ github.event.issue.html_url }}
         run: |
           # Only act on labeled 'rfd' issues

@@ -1,0 +1,36 @@
+# Pre-commit configuration for OpenCHAMI/.github
+# Lints ALL YAML/YML files in the repo and adds a few safe fixers.
+# Install:   pipx install pre-commit   (or)   pip install pre-commit
+# Enable:    pre-commit install --install-hooks
+# Run once:  pre-commit run --all-files
+
+repos:
+  # Core sanity checks and simple fixers
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      # Parse/validate all YAML files (catches unescaped ':' etc.)
+      - id: check-yaml
+        args: [--allow-multiple-documents]
+        types: [yaml]
+      # Keep files tidy for diffs
+      - id: end-of-file-fixer
+        types: [yaml]
+      - id: trailing-whitespace
+        types: [yaml]
+
+  # Style and safety rules for YAML (config in .yamllint)
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.35.1
+    hooks:
+      - id: yamllint
+        types: [yaml]
+        # yamllint will automatically pick up the repo-root .yamllint config
+
+  # Validate GitHub Actions workflows specifically (optional but recommended)
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.7.5
+    hooks:
+      - id: actionlint
+        # Only for Actions and org templates (not all YAML)
+        files: ^((workflows|workflow-templates)/|\.github/workflows/)\S*\.ya?ml$
