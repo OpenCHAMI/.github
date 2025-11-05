@@ -1,0 +1,25 @@
+# yamllint configuration for OpenCHAMI/.github
+# Focus: catch syntax issues and strings needing quotes (like ':'),
+# while avoiding noisy rules that conflict with GitHub Actions YAML.
+
+extends: default
+
+rules:
+  # Require quotes only when necessary (e.g., when value contains ':')
+  quoted-strings:
+    required: only-when-needed
+    quote-type: double
+
+  # GitHub Actions often omit '---' at top
+  document-start: disable
+
+  # GH Actions keys/values like on/off/yes/no are common; avoid false positives
+  truthy: disable
+
+  # Keep output readable without forcing line wraps in long descriptions
+  line-length: disable
+
+  # Keep other helpful defaults
+  trailing-spaces: enable
+  indentation:
+    indent-sequences: consistent

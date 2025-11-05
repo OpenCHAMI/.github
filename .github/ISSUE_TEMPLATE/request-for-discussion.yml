@@ -33,7 +33,7 @@ body:
     attributes:
       label: Stakeholders / Affected Areas
       description: Who is impacted (teams, users, systems)?
-  
+
   - type: input
     id: deadline
     attributes:
@@ -94,7 +94,7 @@ body:
         - [ ] Deferred
         - [ ] Other: ________
 
-        **Decision date:**  
+        **Decision date:**
         **Recorded by:**
 
 ---

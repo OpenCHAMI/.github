@@ -31,11 +31,11 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: pr.number,
-body: |
-  🚨 **DCO check failed**  
-  Please sign off your commits with `git commit -s`.  
-  Quick fix: run  
-      curl -fsSL https://raw.githubusercontent.com/OpenCHAMI/.github/main/scripts/setup-dco.sh | bash
-  Then amend your commits and force-push.
+                body: |
+                  🚨 **DCO check failed**
+                  Please sign off your commits with `git commit -s`.
+                  Quick fix: run
+                      curl -fsSL https://raw.githubusercontent.com/OpenCHAMI/.github/main/scripts/setup-dco.sh | bash
+                  Then amend your commits and force-push.
               });
             }

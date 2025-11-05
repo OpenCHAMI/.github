@@ -1,7 +1,7 @@
 # This workflow checks if the commits in a pull request have a Signed-off-by line.
 # If any commit is missing this line, it will fail the workflow and report the SHA(s) of the commits that need to be signed off.
 # It is designed to run on pull requests targeting the OpenCHAMI repository, ensuring that all contributions comply with the Developer Certificate of Origin (D
-#CO) requirements.
+# CO) requirements.
 # The workflow uses the `actions/checkout` action to check out the code and then verifies
 # the commit messages for the Signed-off-by line. If any commits are found without this line,
 # it will output an error message with the commit SHA(s) that need to be addressed.

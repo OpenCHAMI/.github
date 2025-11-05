@@ -19,8 +19,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           pr-message: |
-            👋  Welcome @${{ github.actor }}!  
-            OpenCHAMI requires a **DCO sign-off** on every commit.  
+            👋  Welcome @${{ github.actor }}!
+            OpenCHAMI requires a **DCO sign-off** on every commit.
             Run the one-liner below to configure Git and auto-enforce sign-off locally:
             ```bash
             curl -fsSL https://raw.githubusercontent.com/OpenCHAMI/.github/main/scripts/setup-dco.sh | bash
