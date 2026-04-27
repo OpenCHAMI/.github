@@ -48,7 +48,7 @@ Some parts of the OpenCHAMI ecosystem exist because there was no open source alt
 
 ## Getting Started
 
-If you're new to the project, the best way to get started is through our [Quickstart Guide](https://openchami.org/guides/getting_started/) which can have OpenCHAMI installed and ready in less than 90 seconds.  To learn more, please join our Slack through this [Invite Link](https://join.slack.com/t/openchami/shared_invite/zt-2xn9wctqq-tptRqPUeFQtTsENRkrCkBg).
+If you're new to the project, the best way to get started is through our [Tutorial](https://openchami.org/docs/tutorial/) which can have OpenCHAMI installed and ready in less than 90 seconds.  To learn more, please join our Slack through this [Invite Link](https://join.slack.com/t/openchami/shared_invite/zt-2xn9wctqq-tptRqPUeFQtTsENRkrCkBg).
 
 ## Contributing
 
