@@ -7,8 +7,6 @@
       ":dependencyDashboard"
     ],
 
-    // Cooldown — the equivalent of Dependabot's `cooldown` for update PRs.
-    // Don't propose v3.7.0 until it's been out N days. Adjust per ecosystem below.
     "minimumReleaseAge": "3 days",
 
     "rangeStrategy": "bump",
@@ -16,12 +14,10 @@
     "timezone": "America/Denver",
     "labels": ["dependencies", "renovate"],
 
-    // Backpressure: keep the PR queue manageable
     "prConcurrentLimit": 5,
     "prHourlyLimit": 2,
 
     "packageRules": [
-      // Group all GitHub Actions bumps into one weekly PR
       {
         "matchManagers": ["github-actions"],
         "matchUpdateTypes": ["minor", "patch"],
@@ -34,26 +30,22 @@
         "minimumReleaseAge": "14 days"
       },
 
-      // Go modules — group minor/patch; major gets its own PR
       {
         "matchManagers": ["gomod"],
         "matchUpdateTypes": ["minor", "patch"],
         "groupName": "go modules (minor/patch)"
       },
 
-      // Docker base images: bigger cooldown (mistakes cost more)
       {
         "matchManagers": ["dockerfile"],
         "minimumReleaseAge": "7 days"
       },
 
-      // pre-commit hook revs
       {
         "matchManagers": ["pre-commit"],
         "groupName": "pre-commit hooks"
       },
 
-      // Security updates: bypass cooldown
       {
         "matchPackagePatterns": ["*"],
         "matchDepTypes": ["devDependencies", "dependencies"],
