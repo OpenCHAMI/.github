@@ -1,0 +1,58 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
+    "extends": [
+      "config:recommended",
+      ":semanticCommits",
+      ":dependencyDashboard"
+    ],
+
+    "minimumReleaseAge": "3 days",
+
+    "rangeStrategy": "bump",
+    "schedule": ["before 5am on Monday"],
+    "timezone": "America/Denver",
+    "labels": ["dependencies", "renovate"],
+
+    "prConcurrentLimit": 5,
+    "prHourlyLimit": 2,
+
+    "packageRules": [
+      {
+        "matchManagers": ["github-actions"],
+        "matchUpdateTypes": ["minor", "patch"],
+        "groupName": "github-actions (minor/patch)"
+      },
+      {
+        "matchManagers": ["github-actions"],
+        "matchUpdateTypes": ["major"],
+        "groupName": "github-actions (major)",
+        "minimumReleaseAge": "14 days"
+      },
+
+      {
+        "matchManagers": ["gomod"],
+        "matchUpdateTypes": ["minor", "patch"],
+        "groupName": "go modules (minor/patch)"
+      },
+
+      {
+        "matchManagers": ["dockerfile"],
+        "minimumReleaseAge": "7 days"
+      },
+
+      {
+        "matchManagers": ["pre-commit"],
+        "groupName": "pre-commit hooks"
+      },
+
+      {
+        "matchPackagePatterns": ["*"],
+        "matchDepTypes": ["devDependencies", "dependencies"],
+        "vulnerabilityAlerts": {
+          "minimumReleaseAge": "0 days",
+          "prPriority": 100
+        }
+      }
+    ]
+  }

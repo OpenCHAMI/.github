@@ -7,7 +7,7 @@
 repos:
   # Core sanity checks and simple fixers
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v6.0.0
     hooks:
       # Parse/validate all YAML files (catches unescaped ':' etc.)
       - id: check-yaml
