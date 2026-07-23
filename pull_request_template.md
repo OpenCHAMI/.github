@@ -28,6 +28,7 @@ Fixes #(issue)
 - [ ] New feature  
 - [ ] Breaking change  
 - [ ] Documentation update  
+- [ ] Dependency update
 
 ---
 
