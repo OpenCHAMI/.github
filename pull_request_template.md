@@ -7,7 +7,8 @@ Thank you for your contribution! Please ensure the following before submitting:
 - [ ] My code follows the style guidelines of this project  
 - [ ] I have added/updated comments where needed  
 - [ ] I have added tests that prove my fix is effective or my feature works  
-- [ ] I have run `make test` (or equivalent) locally and all tests pass  
+- [ ] I have run `make test` (or equivalent) locally and all tests pass
+- [ ] I have updated the relevant documentation (CLI examples, man pages, README, other docs, etc.)
 - [ ] **DCO Sign-off**: All commits are signed off (`git commit -s`) with my real name and email  
 - [ ] **REUSE Compliance**:  
   - [ ] Each new/modified source file has SPDX copyright and license headers  
