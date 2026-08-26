@@ -1,35 +1,32 @@
-## Pull Request Template
+## Description
 
-Thank you for your contribution! Please ensure the following before submitting:
-
-### Checklist
-
-- [ ] My code follows the style guidelines of this project  
-- [ ] I have added/updated comments where needed  
-- [ ] I have added tests that prove my fix is effective or my feature works  
-- [ ] I have run `make test` (or equivalent) locally and all tests pass
-- [ ] I have updated the relevant documentation (CLI examples, man pages, README, other docs, etc.)
-- [ ] **DCO Sign-off**: All commits are signed off (`git commit -s`) with my real name and email  
-- [ ] **REUSE Compliance**:  
-  - [ ] Each new/modified source file has SPDX copyright and license headers  
-  - [ ] Any non-commentable files include a `<filename>.license` sidecar  
-  - [ ] All referenced licenses are present in the `LICENSES/` directory  
-
-### Description
-
-Please include a summary of the change and which issue is fixed.  
+Please include a summary of the change and which issue is fixed.
 Also include relevant motivation and context.
 
-Fixes #(issue)
+Fixes #<issue\_number>
 
-### Type of Change
+## Checklist
 
-- [ ] Bug fix  
-- [ ] New feature  
-- [ ] Breaking change  
-- [ ] Documentation update  
+- [ ] My code follows the style guidelines of this project
+- [ ] I have added/updated comments where needed
+- [ ] I have added tests that prove my fix is effective or my feature works
+- [ ] I have run `make test` (or equivalent) locally and all tests pass
+- [ ] I have updated the relevant documentation (CLI examples, man pages, README, other docs, etc.)
+- [ ] **DCO Sign-off**: All commits are signed off (`git commit -s`) with my real name and email
+- [ ] **REUSE Compliance**:
+  - [ ] Each new/modified source file has SPDX copyright and license headers
+  - [ ] Any non-commentable files include a `<filename>.license` sidecar
+  - [ ] All referenced licenses are present in the `LICENSES/` directory
+
+## Type of Change
+
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Breaking change
+- [ ] Documentation update
 - [ ] Dependency update
+- [ ] Build system/CI
 
 ---
 
-For more info, see [Contributing Guidelines](https://github.com/OpenCHAMI/.github/blob/main/CODE_OF_CONDUCT.md).
+- [x] I agree to follow the [Code of Conduct](https://github.com/OpenCHAMI/.github/blob/main/CODE_OF_CONDUCT.md).
