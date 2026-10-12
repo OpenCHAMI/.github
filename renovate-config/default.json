@@ -37,6 +37,11 @@
       },
 
       {
+        "matchManagers": ["gomod"],
+        "postUpdateOptions": ["gomodTidy"]
+      },
+
+      {
         "matchManagers": ["dockerfile"],
         "minimumReleaseAge": "7 days"
       },
